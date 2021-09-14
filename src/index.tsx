@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './core/report-web-vitals';
+import { Content, Title, Card, Grid } from './components';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles, theme } from './styles';
 
@@ -8,7 +9,12 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <div>Hello World!</div>
+      <Content>
+        <Title>React Sudoku App!</Title>
+        <Card>
+          <Grid />
+        </Card>
+      </Content>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
