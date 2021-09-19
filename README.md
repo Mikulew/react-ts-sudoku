@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Source](#source)
 
-## Available Scripts
+## General info
 
-In the project directory, you can run:
+**STATUS: WIP**
 
-### `npm start`
+**Sudoku** (数独, sūdoku, digit-single) (_/suːˈdoʊkuː, -ˈdɒk-, sə-/_, originally called **Number Place**) is a logic-based, [combinatorial](https://en.wikipedia.org/wiki/Combinatorics) number-placement [puzzle](https://en.wikipedia.org/wiki/Puzzle). In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also called _boxes_, _blocks_, or _regions_) contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+French newspapers featured variations of the Sudoku puzzles in the 19th century, and the puzzle has appeared since 1979 in [puzzle books](https://en.wikipedia.org/wiki/Puzzle_book) under the name Number Place. However, the modern Sudoku only began to gain widespread popularity in 1986 when it was published by the Japanese puzzle company [Nikoli](<https://en.wikipedia.org/wiki/Nikoli_(publisher)>) under the name Sudoku, meaning _single number_. It first appeared in a U.S. newspaper, and then [The Times](https://en.wikipedia.org/wiki/The_Times) (London), in 2004, thanks to the efforts of [Wayne Gould](https://en.wikipedia.org/wiki/Wayne_Gould), who devised a [computer program](https://en.wikipedia.org/wiki/Computer_program) to rapidly produce unique puzzles.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+- HTML5
+- CSS/Styled Components
+- React.js
+- JavaScript (ES6+)
+- npm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+> To run this project, install it locally using npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Development server (compiles and hot-reloads)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# serve with hot reload at localhost:3000
+npm run start
+```
 
-### `npm run eject`
+### Build setup (development)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# install dependencies
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# build for production with minification in the "build" directory
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Demounting setup
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# remove the "build" directory
+npm run clean
+```
 
-## Learn More
+## Source
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is written step by step according to [this course](https://www.udemy.com/course/react2020/ 'Visit website'). I only slightly modified it.
