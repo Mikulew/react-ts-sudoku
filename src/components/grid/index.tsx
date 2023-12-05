@@ -1,4 +1,4 @@
-import React, { FC, Children } from 'react';
+import { FC, Children } from 'react';
 import Block from './block';
 import { Container, Row } from './styles';
 
